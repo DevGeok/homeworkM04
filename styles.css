@@ -1,0 +1,41 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: rgb(161, 204, 167);
+  color: #333;
+  margin: 20px;
+}
+
+#titulo {
+  font-size: 2em;
+  border: 2px solid black;
+  border-radius: 1em;
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+#titulo:hover{
+  #subtitulo{
+    font-style: italic;
+    font-stretch:ultra-condensed;
+    color: brown;
+    border: solid black;
+    border-radius: 1em;
+    border-style:dotted;
+  }
+}
+
+
+
+img {
+  border-radius: 1em;
+  background-color: beige;
+  transition:3s;
+}
+
+img:hover {
+  border-radius: 10em;
+}
